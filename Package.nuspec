@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>JalilVerdiyev.SessionMapper</id>
+    <version>1.0.1</version>
+    <authors>JalilVerdiyev</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <readme>docs\README.md</readme>
+    <projectUrl>https://www.github.com/jalilverdiyev</projectUrl>
+    <description>A package for getting or setting objects to Session</description>
+    <releaseNotes>The initial release</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <dependencies>
+      <group targetFramework=".NET6.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" />
+        <dependency id="Microsoft.AspNetCore.Http.Features" version="5.0.17" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\SessionMapper\README.md" target="docs\"/>
+  </files>
+</package>
